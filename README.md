@@ -422,7 +422,7 @@ Note: NAT Table entries are kept for 24h after the last use by default.
 | (dhcp-config)# lease <days> <hours> <mins>               | lease validity time                                    |
 | (config)# int g1/1                                       | Enter interface config mode on client facing interface |
 | (config-if)# ip helper-address 192.168.1.1               | Relay DHCP Requests to this host                       |
-
+| (config)# ip address dhcp		                   | Activate DHCP Server		                    |
 
 ## DHCP Client
 | Command                                                        | Description                                            |
