@@ -424,6 +424,12 @@ Note: NAT Table entries are kept for 24h after the last use by default.
 | (config-if)# ip helper-address 192.168.1.1               | Relay DHCP Requests to this host                       |
 
 
+## DHCP Client
+| Command                                                        | Description                                            |
+|:---------------------------------------------------------------|:-------------------------------------------------------|
+| (config)# ip dhcp lease {days [hours] [minutes] | infinite}    | Requests a custom lease duration for DHCP clients      |
+| (config-if)# ip address dhcp			  		 | Configures an interface to obtain an IP Address 	  |
+
 ### Troubleshooting DHCP
 
 | Command                       | Description                                           |
